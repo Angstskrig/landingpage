@@ -1,0 +1,8 @@
+* {
+  border: 2px pink;
+}
+
+.hero {
+  background-color: rgb(229, 137, 26);
+  display: flex;
+}
