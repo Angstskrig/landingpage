@@ -55,26 +55,27 @@
 
 .section1 .puppy_row {
   display: flex;
-  padding: 0 120px;
-  justify-content: space-evenly;
+  justify-content: center;
+  width: 100%;
 }
 
 .section1 .puppy {
-  max-width: 120px;
-  max-height: 120px;
-  border: 2px solid;
-  border-color: #3882f6;
-  border-radius: 10px;
   display: flex;
   flex-direction: column;
 }
 
 .section1 img {
-  max-height: 120px;
+  width: 120px;
+  height: 120px;
+  object-fit: cover;
+  border: 2px solid;
+  border-color: #3882f6;
+  border-radius: 10px;
+  margin: 0 40px;
 }
 
 .section1 .text {
-  font-size: 14px;
+  font-size: 16px;
 }
 
 .section1 p {
@@ -111,6 +112,25 @@ button {
   width: 85px;
   height: 25px;
   border-radius: 5px;
+  border-color: #e5e7eb;
+}
+
+.bluebox {
+  display: flex;
+  background-color: #3882f6;
+  margin: 75px 100px 75px 100px;
+  width: 100%;
+  border-radius: 5px;
+  padding: 30px;
+}
+
+.bluebox p {
+  color: #e5e7eb;
+}
+
+.bluebox .buttondiv {
+  align-self: center;
+  padding: 0 0 0 100px;
 }
 
 .footer {
